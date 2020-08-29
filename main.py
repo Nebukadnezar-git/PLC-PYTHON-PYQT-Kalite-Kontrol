@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import*
-from proje import Ui_MainWindow
+from arayuz import Ui_MainWindow
 import cv2
 from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSlot
