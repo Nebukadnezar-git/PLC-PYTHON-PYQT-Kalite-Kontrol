@@ -90,7 +90,7 @@ class PLC_PyQt5(QMainWindow):
             
                 if(self.logic==2):
                     date = datetime.datetime.now()
-                    NAME ='C:/Users/Thor/Desktop/akademik/pydsml/python_egitim/arayuz/proje/Saved_Images/Image_%s%s%sT%s%s%s.png'%(date.year, date.month, date.day, date.hour, date.minute, date.second) 
+                    NAME ='C:/KAYDEDİLECEK-DOSYA-YOLU/%s%s%s%s'%(date.year, date.month, date.day, date.hour, date.minute, date.second) 
                     print(NAME)
                     cv2.imwrite(NAME, frame)
             else:
